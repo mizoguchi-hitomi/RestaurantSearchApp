@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
      * @param range
      */
     private void searchRestaurants(double lat, double lng, int range) {
-        String apiKey = "d38450e195b1552c";
+        String apiKey = "自身のAPIキーを設定する";
         String url = "https://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=" + apiKey +
                 "&lat=" + lat + "&lng=" + lng +
                 "&range=" + range + "&count=30" + "&format=json";
