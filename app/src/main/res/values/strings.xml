@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">restantsearch</string>
+
+    <!--  検索半径のオプション  -->
+    <string-array name="range_options">
+        <item>300m以内</item>
+        <item>500m以内</item>
+        <item>1km以内</item>
+        <item>2km以内</item>
+        <item>3km以内</item>
+    </string-array>
+</resources>
